@@ -17,8 +17,7 @@ Stack* createStack(unsigned capacity)
 	Stack* stack = new Stack();
 	stack->capacity = capacity;
 	stack->top = -1;
-	stack->array = new char[(stack->capacity *
-							sizeof(char))];
+	stack->array = new char[(stack->capacity * sizeof(char))];
 	return stack;
 }
 
