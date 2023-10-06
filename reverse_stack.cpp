@@ -68,8 +68,7 @@ int main()
 	char str[] = "HELLO WORLD!";
 
 	reverse(str);
-	cout << "Reversed string is " <<
-			str;
+	cout << "Reversed string is " << str;
 
 	return 0;
 }
